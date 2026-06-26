@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release."
+title: "SpinPD: one-dimensional band and self-consistent transport simulation for layered semiconductor devices"
+type: software
+authors:
+  - family-names: Lan
+    given-names: Guojun
+repository-code: "https://github.com/GuojunLan/spinpd-code-release"
+version: "1.0.1"
+date-released: "2026-06-26"
+license: MIT
+abstract: "SpinPD is a compact Python package for one-dimensional multilayer semiconductor band-profile calculation and self-consistent drift-diffusion transport simulation, including spin-resolved optical generation and spin-resolved current observables."

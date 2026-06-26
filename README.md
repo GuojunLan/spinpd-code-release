@@ -73,6 +73,12 @@ source .venv/bin/activate
 python -m pip install numpy scipy matplotlib
 ```
 
+Equivalent installation from the dependency file:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 Run commands from the repository root so that Python can import the local `spinpd` package.
 
 ## Quick start
@@ -167,3 +173,9 @@ The default layer-stack definitions are in `spinpd/stack.py`:
 - `baseline_calibrated()` adjusts the example device to a calibrated operating configuration.
 
 To model another structure, copy one of these functions and edit the layer sequence, thicknesses, materials, doping densities, contact parameters, pump settings, or recombination parameters.
+
+## Citation and license
+
+Please cite the archived software release corresponding to the version used for a calculation. Citation metadata is provided in `CITATION.cff`.
+
+This code is distributed under the MIT License; see `LICENSE`.
