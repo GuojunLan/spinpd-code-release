@@ -174,6 +174,10 @@ The default layer-stack definitions are in `spinpd/stack.py`:
 
 To model another structure, copy one of these functions and edit the layer sequence, thicknesses, materials, doping densities, contact parameters, pump settings, or recombination parameters.
 
+## Source data of the Spin PD article
+
+`data/sciadv_spin_pd/` holds Data S1 to S3 of the Supplementary Materials of the CoFeB/MgO/GaAs spin-photodiode article: the numerical values of every data panel in the main-text and supplementary figures, as CSV files. The format is described in `data/sciadv_spin_pd/README.md`.
+
 ## Citation and license
 
 Please cite the archived software release corresponding to the version used for a calculation. Citation metadata is provided in `CITATION.cff`.
